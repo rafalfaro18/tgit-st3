@@ -61,6 +61,15 @@ If you don't use Package Control, you can do the following:
 If your `TortoiseGitProc.exe` is not installed in `C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe` 
 (the normal place) AND if it's not in your PATH, you may need to configure the plugin settings.
 
+### Key Bindings Example for Sync
+
+   { "keys": ["alt+z"], "command": "tgit_sync" },
+
+### Key Bindings Example for Commit Repo
+
+   { "keys": ["f1"], "command": "tgit_commit_repo" }
+
+
 ## Thanks
 
 Thanks to the authors and contributors of the following repositories, 
